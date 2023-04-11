@@ -3,10 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/anvandar.css">
     <title>registrering</title>
 </head>
 <body>
-    <h3>Registrera dig</h3>
+    <h3 id="animate2">Registrera dig</h3>
     <form action="/action_page.php"></form>
     
     <label for="epost">E-post:</label>
@@ -24,7 +25,16 @@
     <label for="lname">Efternamn:</label>
     <br>
     <input type="text" id="lname" name="lname" placeholder="Efternamn" required>
-
+    <br>
+    <label for="lname">Birthday:</label>
+    <br>
+    <input type="date" id="date" name="date" placeholder="Birthday" required>
+    <br>
+    <label for="lname">Age:</label>
+    <br>
+    <input type="number" id="age" name="age" placeholder="Age" required>
+    <h2>Registrera</h2>
+    <a href="/anvandar.html">Registrera</a>
     
 </body>
 </html>

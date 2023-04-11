@@ -3,11 +3,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/användar.css">
+    <link rel="stylesheet" href="/anvandar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>logg in</title>
 </head>
 <body>
-    <h3>Logga In!</h3>
+  
+    <p id="animate"> Logga In!</p>
     <div>
         <label for="email">E-mail:</label>
       <br>
@@ -18,7 +20,13 @@
       <br>
       <input type="password" id="password" name="password" maxlength="12" placeholder="********" required> 
       </div>
-      <h2>Registrera dig!</h2>
+
+      Logga in med:
+      <br>
+      <div style="font-size: 4rem;">
+      <i id="google" class="fa-brands fa-google fa-shake fa-xs"></i> 
+      <i id="facebook" class="fa-brands fa-facebook fa-shake fa-xs"></i>
+      </div>
       <a href="/registrera.html">Registrera</a>
 </body>
 </html>

@@ -1,0 +1,24 @@
+body {
+    background-color: aqua;
+}
+#google {
+    color: #F71B23 ;
+
+}
+#facebook {
+    color: #1877F2;
+}
+#animate {
+    animation-name: loggin;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+}
+
+@keyframes loggin {
+ from {color: #F71B23; font-size: 10px;}
+ to { color: black; font-size: 15px;}
+}   
