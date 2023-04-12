@@ -18,14 +18,35 @@ body {
     animation-fill-mode: both;
     
 }
-h3 {
-  text-align: center;
-}
 
 @keyframes loggin {
- from {color: #F71B23;}
- to { color: black; }
-}   
+ from {color: #9a7fe4}
+ to { color: #543859 }
+}  
+
+#animate2 {
+  animation-name: registrera;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes registrera {
+  0% {
+    margin-left: 60%;
+    color: #543859;
+  }
+  100% {
+    margin-left: 30%;
+    color: #9a7fe4;
+  }
+  
+}
+
+h1 {
+  text-align: center;
+}
 
 .container {
     display: flex;

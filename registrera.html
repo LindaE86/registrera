@@ -3,23 +3,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrera användare">
+    <meta name="keywords" content="Registrera">
     <link rel="stylesheet" href="/anvandar.css">
+    <
     <title>registrering</title>
 </head>
 <body>
 
-    <h3 id="animate2">Registrera dig</h3>
+    <h2 id="animate2">Registrera!</h2>
     <form action="/action_page.php"></form>
     <div class="containerbox">
         <div class="form-container">
           <div class="right-container">
             <div class="right-inner-container">
-        <input type="text" class="fontAwesome" name="namn" placeholder="&#xf007; Namn *">
-        <input type="text" class="fontAwesome" name="telefon"  placeholder="&#xf095; Telefon *">
-        <input type="email" class="fontAwesome" name="email" placeholder="&#xf0e0; Email *">
-        <input type="password" id="password" name="password" maxlength="12" placeholder="********" required> 
-        <input type="number" id="age" name="age" placeholder="Age" required>
-        <input type="date" id="date" name="date" placeholder="Birthday" required>
+        <h2>Registreara dig här:</h2>
+        <input type="text" class="fontAwesome" name="fnamn" placeholder= "Förnamn *" required><br>
+        <input type="text" class="fontAwesome" name="enamn" placeholder= "Efternamn *" required><br>
+        <input type="text" class="fontAwesome" name="telefon"  placeholder="Telefon *"required><br>
+        <input type="email" class="fontAwesome" name="email" placeholder="Email *"required><br>
+        <input type="password" id="password" name="password" maxlength="12" placeholder="Lösenord *" required><br> 
+        <input type="date" id="date" name="date" placeholder="Födelsedag" required><br>        
+        <input type="number" id="age" name="age" placeholder="Ålder *" min="1" max="100" required><br>
+
         <br>
     
     <button>Registrera</button><br>
