@@ -5,28 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/anvandar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>logg in</title>
+    <title>logga in</title>
 </head>
 <body>
-  
-    <p id="animate"> Logga In!</p>
-    <div>
-        <label for="email">E-mail:</label>
-      <br>
-      <input type="email" id="email" name="email" placeholder="namn@email.se"  required> 
-      </div>
-      <div>
-        <label for="password">Password:</label>
-      <br>
-      <input type="password" id="password" name="password" maxlength="12" placeholder="********" required> 
-      </div>
+    <h3 id="animate"> Logga In!</h3>
 
-      Logga in med:
-      <br>
-      <div style="font-size: 4rem;">
-      <i id="google" class="fa-brands fa-google fa-shake fa-xs"></i> 
-      <i id="facebook" class="fa-brands fa-facebook fa-shake fa-xs"></i>
+      <div class="containerbox">
+        <div class="form-container">
+          <div class="right-container">
+            <div class="right-inner-container">
+                  <h2 class="lg-view">Logga In</h2>
+                <input type="email" class="fontAwesome" name="email" placeholder="&#xf0e0; Email *" required>
+                <input type="password" name="password" maxlength="12"  placeholder=Password required >
+                <br>
+                <button>Logga In</button>
+                <br>
+                <p>Logga in via:</p>
+                <div class="social-container">
+                <a href="#" class="social"><i id="google" class="fa-brands fa-google fa-shake fa-xs"></i></a>
+                <a href="#" class="social"><i id="facebook" class="fa-brands fa-facebook fa-shake fa-xs"></i></a>
+                <br>
+                <p>Inte medlem registrera dig nedan:</p>
+                <a href="/registrera.html">Registrera</a>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-      <a href="/registrera.html">Registrera</a>
+    </div>
+
+
 </body>
 </html>
